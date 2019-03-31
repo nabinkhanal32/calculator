@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         tvOutput = (TextView) findViewById(R.id.tvoutput);
         tvOutput.setText(display);
 
-        btnPoint = findViewById(R.id.btn13);
+        btnPoint = findViewById(R.id.btnpoint);
         btnPoint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
